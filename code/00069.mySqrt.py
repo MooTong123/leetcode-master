@@ -1,5 +1,7 @@
 # -- coding: utf-8 --
 
+# easy
+
 class Solution:
     def mySqrt(self, x: int) -> int:
         left, right, result = 0, x, -1
