@@ -1,8 +1,12 @@
 # -- coding: utf-8 --
 
-# easy
 
 class Solution:
+    '''
+    easy
+    二分法
+    '''
+
     def searchInsert(self, nums, target):
         left, right = 0, len(nums)
         while (left < right):

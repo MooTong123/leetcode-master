@@ -3,6 +3,11 @@
 # easy
 
 class Solution:
+    '''
+    easy
+    二分法
+    '''
+
     def search(self, nums, target) :
         '''
         二分法

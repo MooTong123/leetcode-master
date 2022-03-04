@@ -1,8 +1,13 @@
 # -- coding: utf-8 --
 
-# easy
 
 class Solution:
+    '''
+    easy
+    二分法
+    '''
+
+
     def mySqrt(self, x: int) -> int:
         left, right, result = 0, x, -1
 
