@@ -1,11 +1,11 @@
 # -- coding: utf-8 --
 
-class Solution:
-    '''
-    easy
-    双指针法
-    '''
+'''
+数组3：双指针法
+easy
+'''
 
+class Solution:
 
     def removeElement(self, nums: List[int], val: int) -> int:
         fast, slow = 0, 0

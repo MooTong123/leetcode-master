@@ -1,6 +1,9 @@
 # -- coding: utf-8 --
 
-# easy
+'''
+哈希表
+easy
+'''
 
 class Solution:
     def twoSum(self, nums, target):

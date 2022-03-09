@@ -1,9 +1,10 @@
 # -- coding: utf-8 --
 
 '''
+数组3：双指针法
 easy
-双指针法
 '''
+
 
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:

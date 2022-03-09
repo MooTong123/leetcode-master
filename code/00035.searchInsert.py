@@ -1,11 +1,11 @@
 # -- coding: utf-8 --
 
+'''
+数组2：二分法
+easy
+'''
 
 class Solution:
-    '''
-    easy
-    二分法
-    '''
 
     def searchInsert(self, nums, target):
         left, right = 0, len(nums)

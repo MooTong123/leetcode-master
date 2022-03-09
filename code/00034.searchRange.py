@@ -1,11 +1,11 @@
 # -- coding: utf-8 --
 
+'''
+数组2：二分法
+medium
+'''
 
 class Solution:
-    '''
-       medium
-       二分法
-       '''
 
     def searchRange(self, nums, target):
         def binarySearch(nums, target):

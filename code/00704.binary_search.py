@@ -1,12 +1,12 @@
 # -- coding: utf-8 --
 
-# easy
+'''
+数组2：二分法
+easy
+
+'''
 
 class Solution:
-    '''
-    easy
-    二分法
-    '''
 
     def search(self, nums, target) :
         '''
