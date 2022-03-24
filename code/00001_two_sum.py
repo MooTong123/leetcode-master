@@ -1,7 +1,7 @@
 # -- coding: utf-8 --
 
 '''
-哈希表
+用dict作为哈希表
 easy
 '''
 
