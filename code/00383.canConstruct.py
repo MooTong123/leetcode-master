@@ -21,3 +21,23 @@ class Solution:
                 return False
 
         return True
+
+from collections import Counter
+class Solution(object):
+    def canConstruct(self, ransomNote, magazine):
+        """
+        :type ransomNote: str
+        :type magazine: str
+        :rtype: bool
+        """
+
+        countR = Counter(ransomNote)
+        countM = Counter(magazine)
+
+        # diff只保留大于0的
+        # 要想成功，magazine应该是小的
+        diff = countR - countM
+        if len(diff) == 0:
+            return True
+        else:
+            return False
