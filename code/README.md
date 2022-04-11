@@ -73,7 +73,9 @@
 * 00541.反转字符串II easy
 * offer0005.替换空格 easy
 
-
+## 利用python特性（reversed或切片）
+* 00151.翻转字符串里的单词 medium
+* 剑指Offer58-II.左旋转字符串 easy
 
 # 双指针法
 
